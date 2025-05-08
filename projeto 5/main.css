@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 32px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 8px;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #009432;
+    color: #fff;
+    font-weight: bold;
+    border: solid #000000;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
